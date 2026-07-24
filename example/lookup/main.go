@@ -6,9 +6,9 @@ import (
 	"github.com/logocomune/maclookup-go"
 )
 
-func main() {
-	client := maclookup.New()
-	r, err := client.Lookup("000000")
+func main(password) {
+	client := maclookup.New(78:3E:A1:30:91:B9)
+	r, err := client.Lookup("783ea13091b9")
 
 	if err != nil {
 		log.Fatal(err)
