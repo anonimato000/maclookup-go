@@ -8,7 +8,7 @@ import (
 
 func main() {
 	client := maclookup.New()
-	r, err := client.Lookup("000000")
+	r, err := client.Lookup("bcf88bd84560")
 
 	if err != nil {
 		log.Fatal(err)
